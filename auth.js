@@ -4,7 +4,7 @@ const ADMIN_PIN = "11302024";
 const TL_PINS = {
   "TL-Emon": "820156",
   "TL-LeoLiza": "758482",
-  "TL-Onemen": "758482",
+  "TL-Onemen": "754582",
   "TL-RC": "872564"
 };
 
@@ -44,6 +44,7 @@ window.checkTLAccess = async function(tlName) {
   if (!tlName) throw new Error("Team Leader not specified");
   return await window.requireTeamLeader(tlName);
 };
+
 
 
 
