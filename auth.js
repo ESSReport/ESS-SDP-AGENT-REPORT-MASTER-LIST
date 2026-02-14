@@ -2,21 +2,10 @@
 
 const ADMIN_PIN = "11302024";
 const TL_PINS = {
-"EMON": "764751",
-"LEO LIZA": "286153",
-"JONY": "679904",
-"ZR RAHMAN": "759500",
-"NURUL": "915245",
-"ALX": "421249",
-"KHAN": "555864",
-"CHAK": "975016",
-"DAVID": "600249",
-"MUFA": "756350",
-"SHUVO": "909363",
-"KARIO": "676773",
-"MOHDDIN": "289837",
-"ONEMEN": "207988",
-"RC": "162289"
+  "TL-Emon": "820156",
+  "TL-LeoLiza": "758482",
+  "TL-Onemen": "758482",
+  "TL-RC": "872564"
 };
 
 // -------------------------
@@ -55,3 +44,17 @@ window.checkTLAccess = async function(tlName) {
   if (!tlName) throw new Error("Team Leader not specified");
   return await window.requireTeamLeader(tlName);
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
