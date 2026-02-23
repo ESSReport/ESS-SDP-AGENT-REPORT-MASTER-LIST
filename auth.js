@@ -23,13 +23,14 @@ const TL_PINS = {
   "TL-NOMIL": "872229",
   "TL-LASAR": "872659",
   "TL-KCAJ": "872454",
-  "TL-URMAK": "872323",
+  "TL-URMAK": "872428",
   "TL-VORUOS": "872922",
   "TL-NAJUS": "872755",
   "TL-DEAN": "872897",
   "TL-ALEXVENUS": "872326",
   "TL-YOB": "872919",
-  "TL-DARAZ": "872439"
+  "TL-DARAZ": "872439",
+  "TL-ZINAK": "872729"
 };
 
 // -------------------------
@@ -68,6 +69,7 @@ window.checkTLAccess = async function(tlName) {
   if (!tlName) throw new Error("Team Leader not specified");
   return await window.requireTeamLeader(tlName);
 };
+
 
 
 
