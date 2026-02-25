@@ -30,7 +30,8 @@ const TL_PINS = {
   "TL-ALEXVENUS": "872326",
   "TL-YOB": "872919",
   "TL-DARAZ": "872439",
-  "TL-ZINAK": "872729"
+  "TL-ZINAK": "872729",
+  "TL-SHAD": "872357"
 };
 
 // -------------------------
@@ -69,6 +70,7 @@ window.checkTLAccess = async function(tlName) {
   if (!tlName) throw new Error("Team Leader not specified");
   return await window.requireTeamLeader(tlName);
 };
+
 
 
 
