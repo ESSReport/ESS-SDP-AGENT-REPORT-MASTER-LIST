@@ -13,7 +13,7 @@ const TL_PINS = {
   "TL-DAJAS": "872441",
   "TL-KAHC": "872354",
   "TL-RAYHEX": "872332",
-  "TL-MRLEE": "872994",
+  "TL-MRLEE": "872694",
   "TL-NUMM": "872621",
   "TL-NOS": "872656",
   "TL-LEWEJ": "872443",
@@ -31,7 +31,18 @@ const TL_PINS = {
   "TL-YOB": "872919",
   "TL-DARAZ": "872439",
   "TL-ZINAK": "872729",
-  "TL-SHAD": "872357"
+  "TL-SHAD": "872357",
+  "TL-ARAP": "872989",
+  "TL-ASIAK": "872449",
+  "TL-IHAZ": "872486",
+  "TL-JAFOR": "872561",
+  "TL-KING": "872729",
+  "TL-LEOLIZA": "872729",
+  "TL-LODNOM": "872729",
+  "TL-NRAB": "872729",
+  "TL-TELE": "872729",
+  "TL-RUZIFAH": "872729"
+
 };
 
 // -------------------------
@@ -70,6 +81,7 @@ window.checkTLAccess = async function(tlName) {
   if (!tlName) throw new Error("Team Leader not specified");
   return await window.requireTeamLeader(tlName);
 };
+
 
 
 
