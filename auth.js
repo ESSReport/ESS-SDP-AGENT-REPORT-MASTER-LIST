@@ -2,7 +2,7 @@
 
 const ADMIN_PIN = "11302024";
 const TL_PINS = {
-  "TL-Emon": "820156",
+   "TL-Emon": "820156",
   "TL-LeoLiza": "872982",
   "TL-Onemen": "872941",
   "TL-RC": "872964",
@@ -36,12 +36,13 @@ const TL_PINS = {
   "TL-ASIAK": "872449",
   "TL-IHAZ": "872486",
   "TL-JAFOR": "872561",
-  "TL-KING": "872729",
-  "TL-LEOLIZA": "872729",
-  "TL-LODNOM": "872729",
-  "TL-NRAB": "872729",
-  "TL-TELE": "872729",
-  "TL-RUZIFAH": "872729"
+  "TL-KING": "872889",
+  "TL-LEOLIZA": "872619",
+  "TL-LODNOM": "872113",
+  "TL-NRAB": "872336",
+  "TL-TELE": "872457",
+  "TL-RUZIFAH": "872632"
+
 
 };
 
@@ -81,6 +82,7 @@ window.checkTLAccess = async function(tlName) {
   if (!tlName) throw new Error("Team Leader not specified");
   return await window.requireTeamLeader(tlName);
 };
+
 
 
 
