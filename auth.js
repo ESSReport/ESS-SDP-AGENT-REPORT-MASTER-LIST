@@ -41,7 +41,12 @@ const TL_PINS = {
   "TL-LODNOM": "872113",
   "TL-NRAB": "872336",
   "TL-TELE": "872457",
-  "TL-RUZIFAH": "872632"
+  "TL-RUZIFAH": "872632",
+   "TL-MIHOR": "872644",
+  "TL-MUSAM": "872772",
+  "TL-AZAD": "872651",
+  "TL-AHAM": "872842"
+
 
 
 };
@@ -82,6 +87,7 @@ window.checkTLAccess = async function(tlName) {
   if (!tlName) throw new Error("Team Leader not specified");
   return await window.requireTeamLeader(tlName);
 };
+
 
 
 
