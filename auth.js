@@ -46,7 +46,8 @@ const TL_PINS = {
   "TL-MUSAM": "872772",
   "TL-AZAD": "872651",
   "TL-AHAM": "872842",
-   "TL-MARKA": "872342"
+   "TL-MARKA": "872342",
+   "TL-ROSE": "877112"
 
 };
 
@@ -86,6 +87,7 @@ window.checkTLAccess = async function(tlName) {
   if (!tlName) throw new Error("Team Leader not specified");
   return await window.requireTeamLeader(tlName);
 };
+
 
 
 
