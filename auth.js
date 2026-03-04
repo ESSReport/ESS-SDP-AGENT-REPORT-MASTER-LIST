@@ -31,7 +31,7 @@ const TL_PINS = {
   "TL-YOB": "872919",
   "TL-DARAZ": "872439",
   "TL-ZINAK": "872729",
-  "TL-SHAD": "872357",
+  "TL-XYZ": "872357",
   "TL-ARAP": "872989",
   "TL-ASIAK": "872449",
   "TL-IHAZ": "872486",
@@ -87,6 +87,7 @@ window.checkTLAccess = async function(tlName) {
   if (!tlName) throw new Error("Team Leader not specified");
   return await window.requireTeamLeader(tlName);
 };
+
 
 
 
