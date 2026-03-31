@@ -47,7 +47,8 @@ const TL_PINS = {
   "TL-AZAD": "872651",
   "TL-AHAM": "872842",
    "TL-MARKA": "872342",
-   "TL-ROSE": "877112"
+   "TL-ROSE": "877112",
+   "TL-DIZOM": "877112"
 
 };
 
