@@ -50,7 +50,8 @@ const TL_PINS = {
    "TL-ROSE": "877112",
    "TL-DIZOM": "843112",
    "TL-FISAN": "843332",
-   "TL-FISAN": "862342"
+   "TL-FISAN": "862342",
+   "TL-FISAN": "892642"
 
 };
 
