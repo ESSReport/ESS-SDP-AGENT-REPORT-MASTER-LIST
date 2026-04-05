@@ -52,7 +52,8 @@ const TL_PINS = {
    "TL-FISAN": "843332",
    "TL-UHAJ": "862342",
    "TL-SANI": "892642",
-   "TL-RAMO": "893842"
+   "TL-RAMO": "893842",
+   "TL-RAMO": "895813"
 
 };
 
