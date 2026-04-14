@@ -8,8 +8,8 @@ const SHEETS = {
   STLM: `https://opensheet.elk.sh/${SHEET_ID}/STLM%2FTOPUP`,
   COMM: `https://opensheet.elk.sh/${SHEET_ID}/COMM`,
   SHOP_BALANCE: `https://opensheet.elk.sh/${SHEET_ID}/SHOPS%20BALANCE`,
-  WALLET_DP: `https://opensheet.elk.sh/19eCfiWh46hQUqyAwcpx4OD_3nPFDVK1p1BYbcncMT4M/DP`,
-  WALLET_WD: `https://opensheet.elk.sh/19eCfiWh46hQUqyAwcpx4OD_3nPFDVK1p1BYbcncMT4M/WD`
+  WALLET_DP: `https://opensheet.elk.sh/1kYauM_lC-6EFmzGy0w4ansnWb5rVmF5oiJAdhkze6fE/DP`,
+  WALLET_WD: `https://opensheet.elk.sh/1kYauM_lC-6EFmzGy0w4ansnWb5rVmF5oiJAdhkze6fE/WD`
 };
 
 const shopName = new URLSearchParams(window.location.search).get("shopName") || "";
