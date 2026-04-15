@@ -55,7 +55,8 @@ const TL_PINS = {
    "TL-RAMO": "893842",
    "TL-DRAF": "895813",
    "TL-HAFIZUR": "872632",
-   "TL-MUNIM": "820157"
+   "TL-MUNIM": "820157",
+   "TL-SVEN": "815695"
 
 };
 
