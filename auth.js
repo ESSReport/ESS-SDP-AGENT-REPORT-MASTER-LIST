@@ -37,7 +37,6 @@ const TL_PINS = {
   "TL-IHAZ": "872486",
   "TL-JAFOR": "872561",
   "TL-KING": "872889",
-  "TL-LEOLIZA": "872619",
   "TL-LODNOM": "872113",
   "TL-NRAB": "872336",
   "TL-TELE": "872457",
