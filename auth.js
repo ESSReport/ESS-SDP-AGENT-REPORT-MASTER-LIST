@@ -3,7 +3,6 @@
 const ADMIN_PIN = "11302024";
 const TL_PINS = {
    "TL-Emon": "820156",
-  "TL-LeoLiza": "872982",
   "TL-Onemen": "872941",
   "TL-RC": "872964",
   "TL-Emon": "872994",
@@ -55,7 +54,8 @@ const TL_PINS = {
    "TL-DRAF": "895813",
    "TL-HAFIZUR": "872632",
    "TL-MUNIM": "820157",
-   "TL-SVEN": "815695"
+   "TL-SVEN": "815695",
+   "TL-LEOLIZA": "872982"
 
 };
 
