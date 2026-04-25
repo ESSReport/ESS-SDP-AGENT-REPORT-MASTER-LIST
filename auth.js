@@ -58,7 +58,8 @@ const TL_PINS = {
    "TL-LEOLIZA": "872982",
    "TL-RAYHAN": "859833",
    "TL-KERIO": "861823",
-   "TL-ALI": "865423"
+   "TL-ALI": "865423",
+   "TL-RIPAN": "943516"
 
 };
 
