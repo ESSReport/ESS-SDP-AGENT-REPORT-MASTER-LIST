@@ -78,7 +78,7 @@ const TL_PINS = {
    "TL-MONDOL": "872113",
    "TL-RASHIDUL": "877313",
    "TL-MEHRA": "875713",
-   "TL-RAJU": "876814",
+   "TL-RAJU": "876925",
    "TL-MOHDDIN": "876994",
    "TL-TANVIR": "879644",
    "TL-MIRAAN": "878174",
