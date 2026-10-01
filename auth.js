@@ -96,6 +96,7 @@ const TL_PINS = {
    "TL-ANIK": "913371",
    "TL-DYMAN": "913282",
    "TL-ANDREAS": "913171",
+  "TL-NURUL": "969352",
    "TL-AMINUL": "968241"
 };
 
